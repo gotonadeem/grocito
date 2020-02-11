@@ -1,0 +1,784 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/fevi.png" type="image/x-icon"/>
+<title>Grocito</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link href="css/ubislider.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <div class="bg-blue">
+    <div class="container">
+      <div class="location text-right"><span><img src="images/address (1).png" class="img-fluid"></span><span>Ashok Marg, C-Scheme, Ashok Nagar, Jaipur</span><span><img src="images/back.png" class="img-fluid arrow"></span></div>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="logo-div"><a href="index.html"><img src="images/logo.png" class="img-fluid"></a></div>
+        <div class=" d-flex justify-content-between align-items-center search-categroies">
+          <div class="custom-categroies">
+            <div class="categories-list dropdown">
+              <nav class="main-menu">
+                <ul>
+                  <li class="c-dropdowns"> <a href="#">Shop by Category<i class="fa fa-angle-down"></i></a>
+                    <ul class="cr-dropdown-menu">
+                      <li class="c-dropdowns"> <a href="#">Fruits &amp; Vegetables <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"> <a href="web-development.php">Foodgrains, Oil & Masala <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"> <a href="web-design.php">Bakery, Cakes & Dairy <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="digital-marketing.php">Beverages <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="#">Snacks & Branded Foods <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="#">Beauty & Hygiene <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="#">Cleaning & Household <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="input-group custom-search">
+            <input type="text" class="form-control" name="q" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn" type="submit"><img src="images/search.png" class="img-fluid"></button>
+            </div>
+          </div>
+        </div>
+        <div class="user-n-cart">
+          <div class="d-flex justify-content-between align-items-center flex-sm-nowrap flex-wrap w-100">
+            <div class="user-div"> <span data-toggle="modal" data-target="#myLogin"> <img src="images/user-outline.png" class="img-fluid"></span> <span class="sign-in" data-toggle="modal" data-target="#myLogin">Login</span><span class="or" style="padding:0px 5px">/</span><span class="sign-up" data-toggle="modal" data-target="#mySignup">Sign Up</span></div>
+            <div class="cart-div"> <span><img src="images/shopping-cart-of-checkered-design.png" class="img-fluid"></span> <span class="sh-cart">My Cart</span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="breadcrumbs-custum">
+  <div class="container">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active">Checkout</li>
+    </ul>
+  </div>
+</section>
+<section class="checkout cart-page my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-4">
+        <div class="adddress-field">
+          <div class="phone-number-filed">
+            <h5><span class="checkout-step__number">1</span> Phone Number Verification</h5>
+            <div class="checkout-step__body">
+              <section class="checkout-login">
+                <div class="checkout-login__msg">We need your phone number so that we can update you about your order.</div>
+                <div class="login__body">
+                  <div class="login-help weight--semibold">Your 10 digit mobile number</div>
+                  <form>
+                    <div class="login-phone">
+                      <input type="tel" maxlength="10" class="login-phone__input input" value="">
+                      <button class="btn weight--semibold login-button btn--gray">Next</button>
+                    </div>
+                  </form>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="checkout-step"><span class="checkout-step__number">2</span><span class="checkout-step__name">Delivery Address</span><a class="btn btn--inverted checkout-step__change-btn">Change</a>
+            <div class="checkout-step__body">
+              <div><a href="java:void(0);" class="new-delivery-address-btn" data-toggle="modal" data-target="#myAddress">Add New Delivery Address</a>
+                <section class="delivery-addr">
+                  <div class="delivery-addr__label">
+                    <div class="checkout-address-actions__edit" data-toggle="modal" data-target="#myAddress"></div>
+                    <div class="checkout-address-item addr-label weight--bold">Home</div>
+                    <div class="checkout-address-item weight--normal"><span class="capitalize">mr. </span> surya</div>
+                    <div class="checkout-address-item addr-lines">c12, gandhi path, honda</div>
+                    <div class="checkout-address-item addr-landmark">ADB PWD Colony, Sector 29, Faridabad, Faridabad</div>
+                    <button class="btn btn--full btn-select-address">Deliver Here</button>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="deliverSlot"> <span class="checkout-step__number">3</span> <span class="checkout-step__name">Delivery Date &amp; Time</span>
+            <div class="delivery-day-div">
+              <ul class="nav nav-pills justify-content-between" role="tablist">
+                <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#menu1"><span class="delivery-day">Wed</span><span class="delivery-date">Tomorrow</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#menu2"><span class="delivery-day">Thu</span><span class="delivery-date">17 Jul</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#menu3"><span class="delivery-day">Fri</span><span class="delivery-date">18 Jul</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#menu4"><span class="delivery-day">Sat</span><span class="delivery-date">19 Jul</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#menu5"><span class="delivery-day">Sun</span><span class="delivery-date">20 Jul</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#menu6"><span class="delivery-day">Mon</span><span class="delivery-date">21 Jul</span></a> </li>
+              </ul>
+              <div class="tab-content">
+                <div id="menu1" class="tab-pane active">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput" name="time">
+                          <label class="custom-control-label" for="timeInput"><span class="slot-time">10 AM - 1 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput2" name="time">
+                          <label class="custom-control-label" for="timeInput2"><span class="slot-time">4 PM - 7 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput3" name="time">
+                          <label class="custom-control-label" for="timeInput3"><span class="slot-time">8 PM - 11 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput4" name="time">
+                          <label class="custom-control-label" for="timeInput4"><span class="slot-time">10 AM - 1 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput5" name="time">
+                          <label class="custom-control-label" for="timeInput5"><span class="slot-time">4 PM - 7 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput6" name="time">
+                          <label class="custom-control-label" for="timeInput6"><span class="slot-time">8 PM - 11 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput7" name="time">
+                          <label class="custom-control-label" for="timeInput7"><span class="slot-time">10 AM - 1 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput8" name="time">
+                          <label class="custom-control-label" for="timeInput8"><span class="slot-time">4 PM - 7 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput9" name="time">
+                          <label class="custom-control-label" for="timeInput9"><span class="slot-time">8 PM - 11 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div id="menu4" class="tab-pane fade">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput10" name="time">
+                          <label class="custom-control-label" for="timeInput10"><span class="slot-time">10 AM - 1 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput11" name="time">
+                          <label class="custom-control-label" for="timeInput11"><span class="slot-time">4 PM - 7 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput12" name="time">
+                          <label class="custom-control-label" for="timeInput12"><span class="slot-time">8 PM - 11 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div id="menu5" class="tab-pane fade">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput13" name="time">
+                          <label class="custom-control-label" for="timeInput13"><span class="slot-time">10 AM - 1 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput14" name="time">
+                          <label class="custom-control-label" for="timeInput14"><span class="slot-time">4 PM - 7 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput15" name="time">
+                          <label class="custom-control-label" for="timeInput15"><span class="slot-time">8 PM - 11 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div id="menu6" class="tab-pane fade">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput16" name="time">
+                          <label class="custom-control-label" for="timeInput16"><span class="slot-time">10 AM - 1 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput18" name="time">
+                          <label class="custom-control-label" for="timeInput18"><span class="slot-time">4 PM - 7 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="timeInput19" name="time">
+                          <label class="custom-control-label" for="timeInput19"><span class="slot-time">8 PM - 11 PM</span></label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="proceed-to-pay">
+                <button class="btn custom-btn">Proceed to Payment</button>
+              </div>
+            </div>
+          </div>
+          <div class="deliverSlot payment-sec"> <span class="checkout-step__number">4</span> <span class="checkout-step__name">Payment</span>
+            
+            <div class="payment-invoice">
+            
+            <div class="payment-invoice__row">
+            
+            <div class="d-flex align-items-center justify-content-between">
+            <span class="total-amont-text">Total Amount</span>
+            <span class="total-amont"><img src="images/icons8-rupee-32.png" class="img-fluid">287</span>
+            </div>
+            
+            </div>
+            
+            <div class="payment-invoice__row payment-delivery-charge">
+            
+            <div class="d-flex align-items-center justify-content-between">
+            <span class="total-amont-text">Delivery Charges</span>
+            <span class="total-amont">+<img src="images/icons8-rupee-32.png" class="img-fluid">28</span>
+            </div>
+            
+            </div>
+            
+            <div class="payment-invoice__row">
+            
+            <div class="d-flex align-items-center justify-content-between">
+            <span class="total-amont-text">Amount Payable <small>(incl. of all taxes)</small></span>
+            <span class="total-amont"><img src="images/icons8-rupee-32.png" class="img-fluid">315</span>
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            
+            
+            
+            <div class="delivery-day-div payment-div">
+              <ul class="nav nav-pills justify-content-between" role="tablist">
+                <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#Wallet"><span>Wallet</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#Card"><span>Card</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#Cash"><span>Cash</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#NetBanking"><span>NetBanking</span></a> </li>
+              </ul>
+              <div class="tab-content">
+                <div id="Wallet" class="tab-pane active">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="paytmradio" name="payment">
+                          <label class="custom-control-label" for="paytmradio"><span><img src="images/paytm.png" class="img-fluid"> Paytm</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="mobikwik" name="payment">
+                          <label class="custom-control-label" for="mobikwik"><span><img src="images/mobikwik_wallet.png" class="img-fluid"> Mobikwik</span></label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="nav-radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" class="custom-control-input" id="airtelm" name="payment">
+                          <label class="custom-control-label" for="airtelm"><span><img src="images/airtelmoney.png" class="img-fluid">Airtel Money</span></label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="proceed-to-pay">
+                    <button class="btn custom-btn">Pay Now</button>
+                    <p class="my-3"><small>You will be redirected to wallet’s website to authorize payment</small>
+                    <p> 
+                  </div>
+                </div>
+                <div id="Card" class="tab-pane fade">
+                  <div class="card-field">
+                    <div class="form-group">
+                      <label for="card">Card Number</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group d-flex justify-content-between card-cvv">
+                      <div>
+                        <label for="card">Card Number</label>
+                        <div class="d-flex justify-content-center">
+                          <input type="number" class="form-control" placeholder="MM">
+                          <input type="number" class="form-control" placeholder="YY">
+                        </div>
+                      </div>
+                      <div class="cvv">
+                        <label for="card">CVV</label>
+                        <input type="password" class="form-control">
+                      </div>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="cardsave" name="cardsave">
+                      <label class="custom-control-label" for="cardsave">Save this card for future use </br>
+                        <small>It's perfectly secure</small></label>
+                    </div>
+                  </div>
+                  <div class="proceed-to-pay">
+                    <button class="btn custom-btn">Pay Now</button>
+                  </div>
+                </div>
+                <div id="Cash" class="tab-pane fade">
+                  <div class="cash-img"><img src="images/payment@2x.png" class="img-fluid"></div>
+                  <div class="payment-cod__message" data-test-id="cod-message">Please pay<span class="weight--semibold"> ₹316 </span>to the delivery executive when your order is delivered</div>
+                  <div class="payment-cod-separator">
+                    <div class="payment-cod-separator__text"><span>or</span></div>
+                  </div>
+                  <div class="payment-cod-wallet-options text-center">
+                    <div class="text">Pay using <b>Paytm/Mobikwik</b> at the time of delivery</div>
+                    <img src="images/paytm.png" class="img-fluid"> <img src="images/mobikwik_wallet.png" class="img-fluid"></div>
+                  <div class="proceed-to-pay">
+                    <button class="btn custom-btn">Place Order</button>
+                  </div>
+                </div>
+                <div id="NetBanking" class="tab-pane fade">
+                  <div class="select-bank">
+                    <div class="form-group">
+                      <label for="card">Card Number</label>
+                      <select name="cars" class="custom-select">
+                        <option selected>Select bank</option>
+                        <option value="State Bank">State Bank</option>
+                        <option value="Axis bank">Axis bank</option>
+                        <option value="Andra bank">Andra bank</option>
+                      </select>
+                    </div>
+                    <div class="custom-select-bank">
+                      <ul class="nav bank-list">
+                        <li>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input radioput" id="bankpnp" name="bank">
+                            <label class="custom-control-label" for="bankpnp"><img src="images/ic_pnb.png" class="img-fluid"></label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input radioput" id="bankaxis" name="bank">
+                            <label class="custom-control-label" for="bankaxis"><img src="images/axis_thumbnail.png" class="img-fluid"></label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input radioput" id="banksbi" name="bank">
+                            <label class="custom-control-label" for="banksbi"><img src="images/sbi_thumbnail.png" class="img-fluid"></label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input radioput" id="bankkot" name="bank">
+                            <label class="custom-control-label" for="bankkot"><img src="images/kotak_thumbnail.png" class="img-fluid"></label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input radioput" id="bankicici" name="bank" value="bankicici">
+                            <label class="custom-control-label" for="bankicici"><img src="images/icici_thumbnail.png" class="img-fluid"></label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input radioput" id="bankhdfc" name="bank" value="bankhdfc">
+                            <label class="custom-control-label" for="bankhdfc"><img src="images/hdfc_thumbnail.png" class="img-fluid"></label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="proceed-to-pay">
+                    <button class="btn custom-btn">Pay Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="cart-div">
+        <div class="cart-header">
+          <div class="d-flex justify-content-between"><span>My Cart</span> <span>1</span></div>
+          </div>
+          <div class="cart-inner">
+          <div class="d-flex justify-content-around align-items-center"> 
+          <span class="number-item">1</span> 
+          <span class="product-cart-img"><img src="images/pro_318058.jpg" class="img-fluid"></span>
+          <div class="cart-content">
+          <div class="d-flex flex-column">
+          <p class="discont-cart"><span>20% off</span></p>
+          <p class="checkout-cart__item-name">Harpic Power Plus Original Toilet Cleaner - Pack of 2</p>
+          <p class="item-cart"><span>2x1</span></p>
+          <p class="cart-total"><span><img src="images/icons8-rupee-32.png" class="img-fluid">260</span></p>
+          
+          </div>
+           </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="dark-bg pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-2 col-6">
+        <div class="column1">
+          <h4>Grocito</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Discount Information</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Privacy Policy</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Terms and Conditions</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Cancellations and Returns</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-2 col-6">
+        <div class="column1">
+          <h4>Help</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">FAQs</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Contact US</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Shipping & Delivery</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Sitemap</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="column1 social-link">
+          <h4>Get Social With Us</h4>
+          <ul class="nav">
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+          </ul>
+          <h4>Download Our App</h4>
+          <img src="images/Google-App-store-icon.png" class="img-fluid"> </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="column1">
+          <h4>SUBSCRIBE FOR UPDATES</h4>
+          <h6>Get instant updates about our new products and special promos!</h6>
+          <div class="subcribe-div">
+            <input type="text" class="form-control" name="email" id="email" placeholder="Your Email Address">
+            <button class="btn subscribe-btn">Subscribe Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">Copyright © 2019 Grocito Grocery Supplies Pvt Ltd</div>
+</footer>
+
+<!-- The Modal -->
+<div class="modal" id="myAddress">
+  <div class="modal-dialog">
+    <div class="modal-content"> 
+      
+      <!-- Modal Header -->
+      <div class="p-3 text-center address-header">
+        <h5 class="modal-title">Add New Delivery Address</h5>
+        <p class="m-0">Please enter the accurate address, it will help us to serve you better</p>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="new-address-row">
+          <p class="m-0">Area / Locality</p>
+          <div class="form-group d-flex justify-content-between align-items-center">
+            <input type="text" class="form-control">
+            <button type="submit" class="btn btn-custom"><i class="fa fa-location-arrow" aria-hidden="true"></i> Detect</button>
+          </div>
+        </div>
+        <div class="new-address-inner">
+          <div class="new-address-form-row">
+            <p>Name</p>
+            <div class="form-group d-flex justify-content-start align-items-center">
+              <select class="form-control" id="sel1">
+                <option>Title</option>
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>Miss</option>
+              </select>
+              <input type="text" class="form-control" placeholder="First & Last Name">
+            </div>
+          </div>
+          <div class="new-address-form-row">
+            <p>Flat / House / Office No.</p>
+            <div class="form-group d-flex justify-content-start align-items-center">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="new-address-form-row">
+            <p>Street / Society / Office Name</p>
+            <div class="form-group d-flex justify-content-start align-items-center">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="new-address-form-row">
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" class="custom-control-input" id="customHome" name="address">
+              <label class="custom-control-label" for="customHome">Home</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" class="custom-control-input" id="customOffice" name="address">
+              <label class="custom-control-label" for="customOffice">Office</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" class="custom-control-input" id="customOthers" name="address">
+              <label class="custom-control-label" for="customOthers">Others</label>
+            </div>
+            <div id="gallery-box" style="display: none;">
+              <div class="d-flex note">
+                <input type="text" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="mt-3">
+            <button class="btn new-delivery-address__btn flush--left" type="submit">Continue</button>
+            <button class="btn btn--inverted-gray new-delivery-address__btn ml-3" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery-ui.min.js"></script> 
+<script src="js/price_range_script.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="js/jqueryElevateZoom.js"></script> 
+<script src="js/ubislider.min.js?v=1.0.0.1"></script> 
+<script src="js/custom.js"></script> 
+<script>
+ 
+$(document).ready(function(){
+
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+            
+            $('#quantity').val(quantity + 1);
+
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>0){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});
+ 
+ </script> 
+<script type="text/javascript">
+$(function () {
+        $("#shipCart").click(function () {
+            if ($(this).is(":checked")) {
+                $("#shippBlock").hide();
+               
+            } else {
+                $("#shippBlock").show();
+              
+            }
+        });
+    });
+</script> 
+<script>
+
+$('#gallery-box').hide();
+
+// fetch the id name of checked delivery 
+var idName = $('input.address:checked').attr('id');
+
+// display the metabox if the fetched value matched
+if ( idName === 'customOthers' ) {
+    $('#gallery-box').show();
+}
+
+// show or hide
+$('.address').click(function(){
+    idName = $(this).attr('id');
+    if ( $(this).is(':checked') ) { 
+        if ( idName === 'customOthers' ) {
+            $('#gallery-box').show();
+        } else {
+            $('#gallery-box').hide();
+        }
+    }
+});
+
+$(function() {
+    $('input[name=address]').on('click init-address', function() {
+        $('#gallery-box').toggle($('#customOthers').prop('checked'));
+    }).trigger('init-address');
+});
+</script>
+
+
+<script>
+        $(function() {
+    var $radioButtons = $('input.radioput');
+    $radioButtons.click(function() {
+        $radioButtons.each(function() {
+            $(this).parent().parent().toggleClass('checked11', this.checked);
+        });
+    });
+});
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+[30-Jul-2019 18:41:46 Asia/Kolkata] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/wingstud1/public_html/grocito.com/app/Http/Controllers/HomeController.php on line 30
+[02-Aug-2019 12:58:36 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php:142
+Stack trace:
+#0 /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php(142): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/wingstud1...', 142, Array)
+#1 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/wingstud1...')
+#2 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/wingstud1...', Array)
+#3 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/wingstud1...', Array)
+#4 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/Vie in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php on line 142
+[02-Aug-2019 12:59:02 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php:142
+Stack trace:
+#0 /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php(142): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/wingstud1...', 142, Array)
+#1 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/wingstud1...')
+#2 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/wingstud1...', Array)
+#3 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/wingstud1...', Array)
+#4 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/Vie in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php on line 142
+[02-Aug-2019 12:59:04 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php:142
+Stack trace:
+#0 /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php(142): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/wingstud1...', 142, Array)
+#1 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/wingstud1...')
+#2 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/wingstud1...', Array)
+#3 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/wingstud1...', Array)
+#4 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/Vie in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php on line 142
+[02-Aug-2019 12:59:38 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php:142
+Stack trace:
+#0 /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php(142): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/wingstud1...', 142, Array)
+#1 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/wingstud1...')
+#2 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/wingstud1...', Array)
+#3 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/wingstud1...', Array)
+#4 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/Vie in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php on line 142
+[02-Aug-2019 12:59:41 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php:142
+Stack trace:
+#0 /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php(142): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/wingstud1...', 142, Array)
+#1 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/wingstud1...')
+#2 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/wingstud1...', Array)
+#3 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/View/View.php(149): Illuminate\View\Engines\CompilerEngine->get('/home/wingstud1...', Array)
+#4 /home/wingstud1/public_html/grocito.com/vendor/laravel/framework/src/Illuminate/Vie in /home/wingstud1/public_html/grocito.com/storage/framework/views/c653744002e50d7c95380992558b8072aaf06536.php on line 142

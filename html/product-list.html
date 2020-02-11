@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/fevi.png" type="image/x-icon"/>
+<title>Grocito</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <div class="bg-blue">
+    <div class="container">
+      <div class="location text-right"><span><img src="images/address (1).png" class="img-fluid"></span><span>Ashok Marg, C-Scheme, Ashok Nagar, Jaipur</span><span><img src="images/back.png" class="img-fluid arrow"></span></div>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="logo-div"> <a href="index.html"><img src="images/logo.png" class="img-fluid"></a> </div>
+        <div class=" d-flex justify-content-between align-items-center search-categroies">
+          <div class="custom-categroies">
+            <div class="categories-list dropdown">
+              <nav class="main-menu">
+                <ul>
+                  <li class="c-dropdowns"> <a href="#">Shop by Category<i class="fa fa-angle-down"></i></a>
+                    <ul class="cr-dropdown-menu">
+                      <li class="c-dropdowns"> <a href="#">Fruits &amp; Vegetables <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"> <a href="web-development.php">Foodgrains, Oil & Masala <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"> <a href="web-design.php">Bakery, Cakes & Dairy <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="digital-marketing.php">Beverages <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="#">Snacks & Branded Foods <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="#">Beauty & Hygiene <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                      <li class="c-dropdowns"><a href="#">Cleaning & Household <i class="fa fa-angle-right"></i></a>
+                        <ul class="cr-dropdown-menu">
+                          <li> <a href="#">Fresh Vegetables</a></li>
+                          <li> <a href="#">Herbs & Seasonings </a> </li>
+                          <li> <a href="#">Fresh Fruits</a> </li>
+                          <li> <a href="#">Cuts & Sprouts</a> </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="input-group custom-search">
+            <input type="text" class="form-control" name="q" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn" type="submit"><img src="images/search.png" class="img-fluid"></button>
+            </div>
+          </div>
+        </div>
+        <div class="user-n-cart">
+          <div class="d-flex justify-content-between align-items-center flex-sm-nowrap flex-wrap w-100">
+            <div class="user-div"> <span data-toggle="modal" data-target="#myLogin"> <img src="images/user-outline.png" class="img-fluid"></span> <span class="sign-in" data-toggle="modal" data-target="#myLogin">Login</span><span class="or" style="padding:0px 5px">/</span><span class="sign-up" data-toggle="modal" data-target="#mySignup">Sign Up</span></div>
+            <div class="cart-div"> <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> <span class="sh-cart">My Cart</span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="breadcrumbs-custum">
+  <div class="container">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Beverage</a></li>
+      <li class="breadcrumb-item active">Fruits Juice &amp; Drinks</li>
+    </ul>
+  </div>
+</section>
+<section class="products-list my-sm-3 my-3">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="filter-sidebar">
+        <div class="categori-sec mb-3">
+          <h4>Categories</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">Beverages</a>
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="#">Fruit Juices & Drinks </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="price-sec mb-3">
+          <h4>Price</h4>
+          <div class="price-range-block">
+            <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+            <div class="d-flex align-items-center justify-content-between my-4">
+              <input type="number" min=0 max="9900" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
+              <span class="d-flex align-items-center" style="color:#999;">to</span>
+              <input type="number" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field" />
+            </div>
+            <button class="price-range-search" id="price-range-submit">Search</button>
+            <div id="searchResults" class="search-results-block"></div>
+          </div>
+        </div>
+        <div class="brand-sec mb-3">
+          <h4>Brand</h4>
+          <input type="text" class="form-control" name="search" placeholder="Search brand">
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks1" name="cocacola">
+                <label class="custom-control-label" for="FruitsDrinks1">Coca Cola</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks2" name="Pepsi">
+                <label class="custom-control-label" for="FruitsDrinks2">Pepsi</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks3" name="Glucon">
+                <label class="custom-control-label" for="FruitsDrinks3">Glucon-D</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks4" name="Bournvita">
+                <label class="custom-control-label" for="FruitsDrinks4">Bournvita</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks5" name="cocacola">
+                <label class="custom-control-label" for="FruitsDrinks5">Coca Cola</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks6" name="Pepsi">
+                <label class="custom-control-label" for="FruitsDrinks6">Pepsi</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks7" name="Glucon">
+                <label class="custom-control-label" for="FruitsDrinks7">Glucon-D</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="FruitsDrinks8" name="Bournvita">
+                <label class="custom-control-label" for="FruitsDrinks8">Bournvita</label>
+              </div>
+              </a> </li>
+          </ul>
+        </div>
+        <div class="discount-sec mb-3">
+          <h4>Discount</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="discont1" name="discont">
+                <label class="custom-control-label" for="discont1">upto 5%</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="discont2" name="discont">
+                <label class="custom-control-label" for="discont2">5% - 10%</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="discont3" name="discont">
+                <label class="custom-control-label" for="discont3">10% - 15%</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="discont4" name="discont">
+                <label class="custom-control-label" for="discont4">15% - 25%</label>
+              </div>
+              </a> </li>
+          </ul>
+        </div>
+        <div class="brand-sec mb-3">
+          <h4>Pack Size</h4>
+          <input type="text" class="form-control" name="search" placeholder="Search by Pack Size">
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Packsize1" name="Packsize">
+                <label class="custom-control-label" for="Packsize1">2X250ML Multipack</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Packsize2" name="Packsize">
+                <label class="custom-control-label" for="Packsize2">2X250ML Multipack</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Packsize3" name="Packsize">
+                <label class="custom-control-label" for="Packsize3">12X250ML Multipack</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Packsize4" name="Packsize">
+                <label class="custom-control-label" for="Packsize4">2X250ML Multipack</label>
+              </div>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Packsize5" name="Packsize">
+                <label class="custom-control-label" for="Packsize5">450ML Multipack</label>
+              </div>
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9 col-sm-9">
+    <div class="product-banner mb-3">
+    
+    <img src="images/grocerybanner.jpg" class="img-fluid">
+    
+    </div>
+    
+      <div class="product-list-sec">
+        <div class="d-flex justify-content-between align-items-center bg-gray product-title-sort">
+          <h4 class="title">Fruits Juice &amp; Drinks</h4>
+          <div class="d-flex justify-content-start align-items-center px-2">
+            <div class="sh-text px-3">
+              <h4 class="m-0">Sort</h4>
+            </div>
+            <form action="/action_page.php">
+              <select name="price" class="custom-select">
+                <option selected="">New</option>
+                <option value="Low">Price: Low To High</option>
+                <option value="High">Price: High To Low</option>
+              </select>
+            </form>
+          </div>
+        </div>
+        <div class="product-listing my-3">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+           
+              <div class="product-content">
+               <a href="product-details.html">
+                <div class="img-content"> <img src="images/product-list-img/glucon-d-500x500.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div></a>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+              <div class="product-content">
+                <div class="img-content"> <img src="images/product-list-img/coca.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+              <div class="product-content">
+                <div class="img-content"> <img src="images/product-list-img/cane.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+              <div class="product-content">
+                <div class="img-content"> <img src="images/product-list-img/glucon-d-500x500.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+              <div class="product-content">
+                <div class="img-content"> <img src="images/product-list-img/glucon-d-500x500.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+              <div class="product-content">
+                <div class="img-content"> <img src="images/product-list-img/coca.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+              <div class="product-content">
+                <div class="img-content"> <img src="images/product-list-img/cane.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-3">
+              <div class="product-content">
+                <div class="img-content"> <img src="images/product-list-img/glucon-d-500x500.jpg" class="img-fluid"> <span class="off-discont">10% OFF</span> </div>
+                <div class="item-content">
+                  <div class="brand">Glucon-D</div>
+                  <div class="item-dec">
+                    <p>Nimbu Pani Flavoured Glucose Based Beverage Mix</p>
+                  </div>
+                  <div class="pricetag"> <span class="new-price"><img src="images/icons8-rupee-32.png" class="img-fluid">200</span> <span class="old-price"><del><img src="images/icons8-rupee-32.png" class="img-fluid">250</del></span> </div>
+                  <div class="custom-select-size">
+                    <select name="item-size" class="custom-select">
+                      <option value="250gm - RS 200.00">250gm - RS 200.00</option>
+                      <option value="1L - RS 400.00">1L - RS 400.00</option>
+                      <option value="1.5L - RS 600.00">1.5L - RS 600.00</option>
+                    </select>
+                  </div>
+                  <div class="delivery-date"><i class="fa fa-truck" aria-hidden="true"></i>Standard Delivery: Tomorrow Morning</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center addto-cart">
+                  <div class="qty-div">
+                    <div class="input-group align-items-center justify-content-center flex-nowrap">
+                      <div class="input-group-prepend"> <span class="input-group-text">QTY</span> </div>
+                      <input type="number" class="form-control" value="1">
+                    </div>
+                  </div>
+                  <button class="btn custom-btn"><img src="images/blue-cart.png" class="img-fluid">Add</button>
+                </div>
+              </div>
+            </div>
+            
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="dark-bg pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-2 col-6">
+        <div class="column1">
+          <h4>Grocito</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Discount Information</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Privacy Policy</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Terms and Conditions</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Cancellations and Returns</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-2 col-6">
+        <div class="column1">
+          <h4>Help</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"> <a class="nav-link" href="#">FAQs</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Contact US</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Shipping & Delivery</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Sitemap</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="column1 social-link">
+          <h4>Get Social With Us</h4>
+          <ul class="nav">
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+          </ul>
+          <h4>Download Our App</h4>
+          <img src="images/Google-App-store-icon.png" class="img-fluid"> </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="column1">
+          <h4>SUBSCRIBE FOR UPDATES</h4>
+          <h6>Get instant updates about our new products and special promos!</h6>
+          <div class="subcribe-div">
+            <input type="text" class="form-control" name="email" id="email" placeholder="Your Email Address">
+            <button class="btn subscribe-btn">Subscribe Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">Copyright © 2019 Grocito Grocery Supplies Pvt Ltd</div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/jquery-ui.min.js"></script> 
+<script src="js/price_range_script.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>

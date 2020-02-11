@@ -1,0 +1,282 @@
+.error
+{
+	color:red !important;
+}
+.focus{ background-color: #004ac3; }
+
+ul.cvf_uploaded_files {list-style-type: none; margin: 20px 0 0 0; padding: 0;}
+ul.cvf_uploaded_files li {background-color: #fff; border: 1px solid #ccc; border-radius: 5px; float: left; margin: 20px 20px 0 0; padding: 2px; width: 150px; height: 150px; line-height: 150px; position: relative;}
+ul.cvf_uploaded_files li img.img-thumb {width: 150px; height: 150px;}
+ul.cvf_uploaded_files .ui-selected {background: red;}
+ul.cvf_uploaded_files .highlight {border: 1px dashed #000; width: 150px; background-color: #ccc; border-radius: 5px;}
+ul.cvf_uploaded_files .delete-btn {width: 24px; border: 0; position: absolute; top: -12px; right: -14px;}
+
+.bg-success {padding: 7px;}
+.inputfile-2 + label {
+    border: 2px solid currentcolor;
+    color: #d3394c;
+}
+.error{
+	color:red;
+}
+
+.inputfile + label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 2.625rem 1.25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.js .inputfile {
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0.1px;
+    z-index: -1;
+}
+.content.box-middle {
+    text-align: center;
+}
+input.inputfile {
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height:100%;
+    cursor:pointer;
+}
+.box {
+    margin: 0 auto;
+    max-width: 130px;
+    position: relative;
+    left: -93px;
+}
+.sidebar_active {
+    background: #004ac3;
+}
+img.loader {
+    background: transparent none repeat scroll 0 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 200px;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: 999999999;
+}
+ul.cvf_uploaded_files1 {list-style-type: none; margin: 20px 0 0 0; padding: 0;}
+ul.cvf_uploaded_files1 li {background-color: #fff; border: 1px solid #ccc; border-radius: 5px; float: left; margin: 20px 20px 0 0; padding: 2px; width: 50px; height: 50px; line-height: 50px; position: relative;}
+ul.cvf_uploaded_files1 li img.img-thumb {width: 50px; height: 50px;}
+ul.cvf_uploaded_files1 .ui-selected {background: red;}
+ul.cvf_uploaded_files1 .highlight {border: 1px dashed #000; width: 50px; background-color: #ccc; border-radius: 5px;}
+ul.cvf_uploaded_files1 .delete-btn1 {width: 24px; border: 0; position: absolute; top: -12px; right: -14px;}
+
+#rightSidenav .article-summary.full-width .text-agreement-seller p {
+    font-size: 16px;
+    background: #f7f7f7;
+    padding: 2px 22px;
+    margin: 0;
+}
+#rightSidenav h2.heading-seller {
+    text-align: center;
+    margin: 0;
+    padding: 15px 0px 15px;
+    background: #fff;
+}
+
+div.right_side_bar.right_side_bar_new.padding-low{
+	padding-top: 65px;
+}
+#rightSidenav .text-agreement.text-agreement-seller ul {
+	background: #f7f7f7;
+	
+}
+
+#rightSidenav .text-agreement.text-agreement-seller h3 {
+    text-align: center;
+}
+.qty
+{
+	font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 3px;
+   margin-left: 12%;
+	color: #d9534f;
+}
+.progtrckr-div {
+	width: 20%;
+	flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	text-align: center;
+	position: relative;
+}
+.progtrckr {
+	display: flex;
+	width: 100%;
+	display: -webkit-flex;
+	text-align: left;
+	max-width: 850px;
+	margin: 35px auto;
+}
+.progtrckr-div:before {
+	content: "";
+	position: absolute;
+	background: #ccc;
+	width: 100%;
+	left: 50%;
+	height: 5px;
+	bottom: -35px;
+}
+span.dots-progress {
+    background: #ccc;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 20px;
+    left: 0;
+    bottom: -44px;
+    right: 0;
+    margin: 0px auto;
+}
+.progtrckr-div.progtrckr-done:before {
+	content: none;
+}
+.date-div-progress {
+    position: absolute;
+    bottom: -75px;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+}
+.progtrckr-div span.tooltips {
+    border: 1px solid #ccc;
+    padding: 4px 9px;
+    border-radius: 5px;
+	background: #eee;
+	position: relative;
+	z-index:99999;
+}
+.progtrckr-div span.tooltips:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    right: 0;
+    left: 0;
+    margin: 0px auto;
+    bottom: -7px;
+    background: #eee;
+    transform: rotate(-44deg);
+    z-index: -9;
+}
+.progtrckr-div.active span.dots-progress {
+    background: #43cb00;
+}
+
+.progtrckr-div.hold span.dots-progress {
+    background: #ff4638;
+}
+.progtrckr-div.active:before {
+    content: "";
+    background: #43cb00;
+}
+span.dots-progress:before {
+    content: "";
+    background: rgba(0,0,0,0.2);
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 32px;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+.hold .date-div-progress {
+    color: #ff4638;
+}
+.last-payment-div .listview-container {
+    margin: 40px 0px;
+}
+.last-payment-div .title-container {
+    margin: 4px 0px 0;
+    padding: 6px 21px;
+    border-bottom: 1px solid #ccc;
+}
+.last-payment-div .title-container label {
+    max-width: 80%;
+    padding: 0px 15px;
+    width: 100%;
+}
+.title-container span {
+    font-size: 15px;
+    font-weight: bold;
+    background: #fff;
+    padding: 7px 9px;
+}
+.payment-row {
+    overflow: overlay;
+    max-width: 620px;
+    width: 100%;
+    background: #f7f7f7;
+    margin: 20px 0px;
+    border: 1px solid #ccc;
+	border-bottom: 0px;
+}
+.listview-container .nav-tabs>li>a {
+    background: #777;
+    color: #fff;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    border-right: 1px solid #fff !important;
+}
+.listview-container .nav-tabs>li>a:hover {
+    background: #555;
+	border: none;
+}
+.listview-container .nav-tabs>li.active>a:hover , .listview-container .nav-tabs>li.active>a:focus:hover {
+    background: #2873f0 !important;
+    border: none;
+    color: #fff;
+}
+.listview-container .nav-tabs>li.active>a , .listview-container .nav-tabs>li.active>a:focus{
+    background: #2873f0;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+}
+.progtrckr {
+    margin-bottom: 105px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .payment-row .title-container span {
+    font-size: 15px;
+    font-weight: bold;
+    background: none;
+    padding: 7px 9px;
+    float: right;
+}
+div.last-payment-div .title-container label {
+    max-width: 50%;
+    padding: 0;
+    width: 100%;
+    font-size: 12px;
+}
+  
+  
+}

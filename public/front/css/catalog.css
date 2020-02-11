@@ -1,0 +1,139 @@
+.catalog-upload {
+    padding: 8px 20px;
+}
+.catalog-upload-heading {
+    font-size: 18px;
+    font-weight: 700;
+}
+.catalog-upload-guidelines, .no-catalog-found {
+    background-color: #fff;
+    border: 1px solid #c9d6de;
+}
+.catalog-upload-guidelines {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 670px;
+    padding: 10px;
+}
+.catalog-upload-form {
+    background-color: #fff;
+    border: 1px solid #c9d6de;
+    margin: 30px auto;
+    max-width: 670px;
+    padding: 20px 20px 30px;
+}
+.catalog-upload-form .form-group {
+    margin-bottom: 15px;
+}
+
+ .catalog-upload-form textarea.form-control {
+    height: auto;
+}
+.control-label {
+    font-size: 14px;
+}
+
+ .fstElement { font-size: 1.2em; }
+            .fstToggleBtn { min-width: 16.5em; }
+
+            .submitBtn { display: none; }
+
+            .fstMultipleMode { display: block; }
+            .fstMultipleMode .fstControls { width: 100%; }
+			nav.attireMainNav {
+    display: none;
+}
+
+.inputfile-2 + label {
+	border: 2px solid currentcolor;
+	color: #333;
+}
+.inputfile + label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 7.625rem 1.25rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.js .inputfile {
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 0.1px;
+	z-index: -1;
+}
+.content.box-middle {
+	text-align: center;
+}
+.modal-body input.inputfile {
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+	height:100%;
+	cursor:pointer;
+}
+.modal-body .box {
+    margin: 0 auto;
+    max-width: 100%;
+	width:100%;
+    position: relative;
+}
+
+.add_img .modal-dialog , .add_file .modal-dialog , .add_links .modal-dialog{
+    max-width: 800px;
+    width: 100%;
+}
+
+
+.inputfile-2 + label {
+	border: 2px solid currentcolor;
+	color: #999;
+}
+.inputfile + label {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 700;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 0.625rem 1.25rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.js .inputfile {
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 0.1px;
+	z-index: -1;
+}
+.content.box-middle {
+	text-align: center;
+}
+input.inputfile {
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+	height:100%;
+	cursor:pointer;
+}
+.box2 {
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+}

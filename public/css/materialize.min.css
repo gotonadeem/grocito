@@ -1,0 +1,19 @@
+
+.toast {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    height: 35px;
+    max-width: 100%;
+    border-radius: 0;
+    box-shadow: 0px 1px 2px 0px #888;
+    text-align: center;
+    padding: 0px 10px;
+    line-height: 35px;
+    width: 100%;
+    word-break: break-word;
+}
+#toast-success{background:#09ad00bd; color:#fff;    pointer-events: none;}
+
+#toast-error {background:rgba(255, 0, 0, 0.5); color:#fff;  pointer-events: none;}
